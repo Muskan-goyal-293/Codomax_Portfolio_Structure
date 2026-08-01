@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-family: 'Segoe UI';
+    color: white;
+}
+.hero{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    gap:1rem;
+    box-shadow: 0px 0px 1rem rgb(173, 130, 248);
+    background:linear-gradient(to right, rgb(125, 125, 240) , rgb(254, 123, 254));
+}
+
+.hero .heroLeft .heroPera{
+font-size: 2rem;
+}
+
+.hero .heroLeft .heroH1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow:  0.5rem 0rem 0rem plum;
+}
+
+.herosectionSkil{
+    font-size: 1.5rem;
+}
+.heroRight img{
+    height: 30rem;
+       border-right: 0.3rem solid black;
+       box-shadow: 0px 0px 2rem black;
+border-radius: 50%;}
+
+.about-me{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+margin-top: 1rem;
+padding: 2rem 3rem;
+    box-shadow: 0px 0px 1rem rgb(173, 130, 248);
+    background:linear-gradient(to right, rgb(125, 125, 240) , rgb(254, 123, 254));
+gap:1rem;
+}
+.about-me .leftAboutMe{
+   padding: 1rem;
+    
+}
+.about-me .leftAboutMe img{
+    width: 50vh;
+    border-radius: 50%;
+}
+.about-me .leftAboutMe ul li {list-style: none;
+font-size: 1.5rem;
+}
+.about-me .rightAboutMe{
+    width: 80%;
+}
+
+.about-me .rightAboutMe p{
+font-size: 1.3rem;
+}
+
+.skill {
+    box-shadow: 0px 0px 1rem rgb(173, 130, 248);
+    background:linear-gradient(to right, rgb(125, 125, 240) , rgb(254, 123, 254));
+    padding:  2rem 3rem;
+    margin-top: 1rem;
+    
+}
+.skill h1{
+    text-align: center;
+    /* color: white; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0.2rem 0rem 0rem rgb(75, 72, 72);
+font-size: 3rem;
+}
+.skill .skillParent{
+    display: flex;
+    /* align-items: center; */
+    padding: 2rem 0rem;
+    justify-content: space-between;
+}
+.skill div ul {
+    padding: 1rem;
+}
+.contact{
+    
+    box-shadow: 0px 0px 1rem rgb(173, 130, 248);
+    background:linear-gradient(to right, rgb(125, 125, 240) , rgb(254, 123, 254));
+    padding:  2rem 3rem;
+    margin-top: 1rem;
+}
+.contactMeH1{
+    color: transparent;
+    width: fit-content;
+    background:linear-gradient(to right , rgb(252, 131, 159) ,rgb(250, 142, 212) ,rgb(248, 199, 227)) ;
+    background-clip: text;
+    text-shadow: 0.1rem 0rem 0rem rgb(242, 239, 239);
+    font-size: 2rem;
+}
+.contact h3{
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+}
+.contact p{
+    text-transform: lowercase;
+}
+.contact p a{
+    text-decoration: none;
+color: white;
+}
+
+.contactSectionPera{
+margin-top: 2rem;
+}
