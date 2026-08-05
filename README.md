@@ -58,10 +58,6 @@ Task 2 has been successfully completed with responsiveness and smooth scrolling 
 **Codomax Internship – Task 2: Responsive Personal Portfolio Website**
 
 
-# Personal Portfolio Website
-
-This project is a Personal Portfolio Website developed as part of the **Codomax Internship Program**.
-
 ## Task 3 Completed ✅
 
 ### New Features Added
