@@ -56,3 +56,40 @@ Task 2 has been successfully completed with responsiveness and smooth scrolling 
 ## Internship Task
 
 **Codomax Internship – Task 2: Responsive Personal Portfolio Website**
+
+
+# Personal Portfolio Website
+
+This project is a Personal Portfolio Website developed as part of the **Codomax Internship Program**.
+
+## Task 3 Completed ✅
+
+### New Features Added
+
+* Contact Form
+* Theme Toggle (Light/Dark Mode)
+* Responsive Design
+* Smooth Scrolling Navigation
+* Modern and User-Friendly Interface
+
+## Sections
+
+* Hero Section
+* About Me Section
+* Skills Section
+* Contact Section
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Project Status
+
+Task 3 has been successfully completed. The portfolio now includes a contact form, theme switching functionality, responsive design, and smooth scrolling for an improved user experience across devices.
+
+## Internship Task
+
+**Codomax Internship – Task 3: Enhanced Personal Portfolio Website**
+
