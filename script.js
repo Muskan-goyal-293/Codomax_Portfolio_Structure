@@ -100,4 +100,4 @@ projectSection.forEach((val , id)=>{
 `
 }
 )
-project.innerHTML= sum
+project.innerHTML+= sum

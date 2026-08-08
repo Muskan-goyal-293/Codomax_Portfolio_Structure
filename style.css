@@ -160,6 +160,11 @@ transition: all 0.5s linear;
 .project {
   padding: 1rem;
 }
+.project h1{
+    font-size: 3rem;
+    text-align: center;
+
+}
 .projectSectionParent {
   margin: 1rem auto;
   height: fit-content;
