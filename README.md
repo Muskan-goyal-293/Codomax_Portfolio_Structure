@@ -89,3 +89,38 @@ Task 3 has been successfully completed. The portfolio now includes a contact for
 
 **Codomax Internship – Task 3: Enhanced Personal Portfolio Website**
 
+## Task 4 Completed ✅
+
+### New Features Added
+
+* Contact Form
+* Theme Toggle (Light/Dark Mode)
+* Responsive Design
+* Smooth Scrolling Navigation
+* Modern and User-Friendly Interface
+* Download Resume Feature
+* Project Section
+
+## Sections
+
+* Hero Section
+* About Me Section
+* Skills Section
+* Contact Section
+* Project Section
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+## Project Status
+
+Task 4 has been successfully completed. The portfolio now includes a project section and a resume download button.
+
+## Internship Task
+
+**Codomax Internship – Task 4: Enhanced Personal Portfolio Website**
+
+

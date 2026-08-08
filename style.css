@@ -1,381 +1,277 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html , body{
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    text-transform: capitalize;
-    padding: 0rem 1rem;
-    font-family: 'Segoe UI';
-    color: white;
- transition: all 0.5s linear;
- scroll-behavior: smooth;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  padding: 0rem 1rem;
+  font-family: "Segoe UI";
+  color: white;
+  transition: all 0.5s linear;
+  scroll-behavior: smooth;
 }
 
-:root{
-    --bg-color :#AE71A7;
-  --sec-color:#764287;
-  --third-color:#B976B7;
-  --four-color:#AD85B7;
+:root {
+  --bg-color: #ae71a7;
+  --sec-color: #764287;
+  --third-color: #b976b7;
+  --four-color: #ad85b7;
 }
-.bg-class{
-    box-shadow: 0px 0px 1rem var(--bg-color);
-    background:linear-gradient(to right,var(--third-color),var(--sec-color) , var(--four-color));
- border-radius: 0.5rem;
+.bg-class {
+  box-shadow: 0px 0px 1rem var(--bg-color);
+  background: linear-gradient(
+    to right,
+    var(--third-color),
+    var(--sec-color),
+    var(--four-color)
+  );
+  border-radius: 0.5rem;
 }
-main{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap:1rem;
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-nav{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- padding: 0.5rem 1rem;
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
 }
 .navRight ul {
-    display: flex;
-    align-items: center;
-    gap :2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
-.navRight ul li{
-    list-style: none;
-    font-weight: 600;
-    font-size: 1.3rem;
+.navRight ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
-.navRight ul li a{
-    color: white;
-    text-decoration: none;
-}
-
-#selectTheme{
-    background-color: var(--four-color);
-    border: none;
-    color: white;
-    font-size: 1rem;
-    outline: none;
-    /* padding: 1rem; */
-}
-.hero{
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    padding: 2rem 3rem;
-    gap:1rem;    
-}
-.hero .heroLeft .heroPera{
-font-size: 2rem;
+.navRight ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-.hero .heroLeft .heroH1{
-    font-size: 4rem;
-    font-weight: 700;
-    text-shadow:  0.5rem 0rem 0rem var(--four-color);
+#selectTheme {
+  background-color: var(--four-color);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  /* padding: 1rem; */
+}
+.hero {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  gap: 1rem;
+}
+.hero .heroLeft .heroPera {
+  font-size: 2rem;
 }
 
-.heroSectionSkil{
-    font-size: 1.5rem;
-}
-.heroSectionPera-2{
-
-    margin-top: 12rem;
-    font-size: 1.2rem;
-}
-.heroRight img{
-    height: 30rem;
-       border-right: 0.3rem solid var(--four-color);
-       box-shadow: 0px 0px 2rem black;
-border-radius: 50%;}
-
-.about-me{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-margin-top: 1rem;
-padding: 2rem 3rem;
-gap:1rem;
-}
-.about-me .leftAboutMe{
-   padding: 1rem;
-    
-}
-.about-me .leftAboutMe img{
-    width: 50vh;
-    border-radius: 50%;
-}
-.about-me .leftAboutMe ul li {list-style: none;
-font-size: 1.5rem;
-}
-.about-me .rightAboutMe{
-    width: 80%;
+.hero .heroLeft .heroH1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 0.5rem 0rem 0rem var(--four-color);
 }
 
-.about-me .rightAboutMe p{
-font-size: 1.3rem;
+.heroSectionSkil {
+  font-size: 1.5rem;
+}
+.heroSectionPera-2 {
+  margin-top: 8rem;
+ margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.heroRight img {
+  height: 30rem;
+  border-right: 0.3rem solid var(--four-color);
+  box-shadow: 0px 0px 2rem black;
+  border-radius: 50%;
 }
 
+.about-me {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 2rem 3rem;
+  gap: 1rem;
+}
+.about-me .leftAboutMe {
+  padding: 1rem;
+}
+.about-me .leftAboutMe img {
+  width: 50vh;
+  border-radius: 50%;
+}
+.about-me .leftAboutMe ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.about-me .rightAboutMe {
+  width: 80%;
+}
+
+.about-me .rightAboutMe p {
+  font-size: 1.3rem;
+}
+
+.downloadResume{
+text-decoration: none;
+color: white;
+padding: 0.5rem;
+border: 0.2rem solid var(--sec-color);
+border-radius: 0.5rem;
+transition: all 0.5s linear;
+}
+.downloadResume:active{
+    scale: 0.95;
+    cursor: pointer;
+}
 .skill {
-        padding:  2rem 3rem;
-    margin-top: 1rem;
-    
+  padding: 2rem 3rem;
+  margin-top: 1rem;
 }
-.skill h1{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 0.2rem 0rem 0rem rgb(75, 72, 72);
-font-size: 3rem;
+.skill h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 0.2rem 0rem 0rem rgb(75, 72, 72);
+  font-size: 3rem;
 }
-.skill .skillParent{
-    display: flex;
-    /* align-items: center; */
-    padding: 2rem 0rem;
-    justify-content: space-between;
+.skill .skillParent {
+  display: flex;
+  
+  padding: 2rem 0rem;
+  justify-content: space-between;
 }
 .skill div ul {
-    padding: 1rem;
+  padding: 1rem;
 }
-.contact{
-    
-    padding:  2rem 3rem;
-    margin-top: 1rem;
+.project {
+  padding: 1rem;
 }
-.contactMeH1{
-    color: transparent;
-    width: fit-content;
-    background:linear-gradient(to right , rgb(252, 131, 159) ,rgb(250, 142, 212) ,rgb(248, 199, 227)) ;
-    background-clip: text;
-    text-shadow: 0.1rem 0rem 0rem rgb(242, 239, 239);
-    font-size: 2rem;
-}
-.contact h3{
-    margin-top: 0.7rem;
-    font-size: 1.5rem;
-}
-.contact p{
-    text-transform: lowercase;
-}
-.contact p a{
-    text-decoration: none;
-color: white;
+.projectSectionParent {
+  margin: 1rem auto;
+  height: fit-content;
+  background-color: var(--sec-color);
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.5s linear;
 }
 
-.contactSectionPera{
-margin-top: 2rem;
+.projectSectionParent:hover {
+  background-color: var(--third-color);
 }
 
-.contactSectionForm{
-padding: 2rem 1rem;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: var(--sec-color);
- gap:1rem;
+.projectSectionParent img {
+  width: 40vw;
+  border-radius: 1rem;
 }
-.contactSectionForm input{
+
+.projectSectionParent h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+.projectSectionParent h3 {
+  font-size: 1.5rem;
+}
+.projectSectionParent p a {
+  text-decoration: none;
+  color: var(--four-color);
+}
+
+.contact {
+  padding: 2rem 3rem;
+  margin-top: 1rem;
+}
+
+.contactMeH1 {
+  color: transparent;
+  width: fit-content;
+  background: linear-gradient(
+    to right,
+    rgb(252, 131, 159),
+    rgb(250, 142, 212),
+    rgb(248, 199, 227)
+  );
+  background-clip: text;
+  text-shadow: 0.1rem 0rem 0rem rgb(242, 239, 239);
+  font-size: 2rem;
+}
+.contact h3 {
+  margin-top: 0.7rem;
+  font-size: 1.5rem;
+}
+.contact p {
+  text-transform: lowercase;
+}
+.contact p a {
+  text-decoration: none;
+  color: white;
+}
+
+.contactSectionPera {
+  margin-top: 2rem;
+}
+
+.contactSectionForm {
+  padding: 2rem 1rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--sec-color);
+  gap: 1rem;
+}
+.contactSectionForm input {
   width: 20vw;
   padding: 0.5rem 2rem;
-font-size: 1rem;
-border-radius: 1rem;
-outline:0.3rem solid  var(--four-color);
-border: none;
+  font-size: 1rem;
+  border-radius: 1rem;
+  outline: 0.3rem solid var(--four-color);
+  border: none;
 }
 
-.contactSectionForm textarea{
-width: 20vw;
-height: 20vh;
-padding:0.5rem 2rem;
-border-radius: 1rem; 
-resize: none;
-border: 0.3rem solid var(--four-color);
-font-size: 1rem;
+.contactSectionForm textarea {
+  width: 20vw;
+  height: 20vh;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  resize: none;
+  border: 0.3rem solid var(--four-color);
+  font-size: 1rem;
 }
-.contactSectionForm button{
-padding: 0.5rem;
-border: 0.3rem solid var(--four-color);
-border-radius: 0.5rem;
-font-size: 1rem;
-background: linear-gradient(to right bottom , var(--sec-color) , var(--bg-color) , var(--third-color));
-color: white;
+.contactSectionForm button {
+  padding: 0.5rem;
+  border: 0.3rem solid var(--four-color);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: linear-gradient(
+    to right bottom,
+    var(--sec-color),
+    var(--bg-color),
+    var(--third-color)
+  );
+  color: white;
 }
-.contactSectionForm button:active{
-scale: 0.95rem;
-cursor: pointer;
-}
-
-/* Tablet */
-@media (max-width: 992px) {
-
-    .hero {
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
-    }
-
-    .hero .heroLeft .heroH1 {
-        font-size: 3rem;
-    }
-
-    .hero .heroLeft .heroPera {
-        font-size: 1.5rem;
-    }
-
-    .heroSectionPera-2 {
-        margin-top: 2rem;
-    }
-
-    .heroRight img {
-        height: 22rem;
-    }
-
-    .about-me {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .about-me .rightAboutMe {
-        width: 100%;
-    }
-
-    .about-me .leftAboutMe img {
-        width: 18rem;
-    }
-
-    .skill .skillParent {
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-    html,
-    body {
-        padding: 0.5rem;
-    }
-
-    nav {
-        flex-direction: column;
-        height: auto;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    .navRight ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .navRight ul li {
-        font-size: 1rem;
-    }
-
-    .hero {
-        padding: 1.5rem;
-    }
-
-    .hero .heroLeft .heroH1 {
-        font-size: 2.3rem;
-        text-shadow: none;
-    }
-
-    .hero .heroLeft .heroPera {
-        font-size: 1.2rem;
-    }
-
-    .heroSectionSkil {
-        font-size: 1.1rem;
-    }
-
-    .heroSectionPera-2 {
-        font-size: 1rem;
-        margin-top: 1.5rem;
-    }
-
-    .heroRight img {
-        height: 15rem;
-        width: 15rem;
-        object-fit: cover;
-    }
-
-    .about-me {
-        padding: 1.5rem;
-    }
-
-    .about-me .leftAboutMe img {
-        width: 14rem;
-    }
-
-    .about-me .leftAboutMe ul li {
-        font-size: 1rem;
-    }
-
-    .about-me .rightAboutMe p {
-        font-size: 1rem;
-        line-height: 1.6;
-    }
-
-    .skill {
-        padding: 1.5rem;
-    }
-
-    .skill h1 {
-        font-size: 2rem;
-    }
-
-    .skill .skillParent {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .contact {
-        padding: 1.5rem;
-    }
-
-    .contactMeH1 {
-        font-size: 1.5rem;
-    }
-
-    .contact h3 {
-        font-size: 1.2rem;
-    }
-}
-
-/* Small Mobile */
-@media (max-width: 480px) {
-
-    .hero .heroLeft .heroH1 {
-        font-size: 1.8rem;
-    }
-
-    .hero .heroLeft .heroPera {
-        font-size: 1rem;
-    }
-
-    .heroRight img {
-        height: 12rem;
-        width: 12rem;
-    }
-
-    .about-me .leftAboutMe img {
-        width: 12rem;
-    }
-
-    .skill h1 {
-        font-size: 1.7rem;
-    }
-
-    .contactMeH1 {
-        font-size: 1.3rem;
-    }
+.contactSectionForm button:active {
+  scale: 0.95rem;
+  cursor: pointer;
 }
